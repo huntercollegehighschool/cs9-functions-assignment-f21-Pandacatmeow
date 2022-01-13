@@ -18,5 +18,18 @@ def factorial(number):
     product *= i
   return product
 
+
 def combination(n, r):  # do not change this line
-  pass  # delete the word pass when you start writing your code
+  def factorial(number):
+    product = 1
+    for n in range(1, number + 1):
+      product *= n
+    return product
+    product = 1
+    for r in range(1, number + 1):
+      product *= r
+    return product
+
+"""
+I'm a bit confused as to what I'm supposed to do with the code, I thought I would need to define the factorials for n and r so I could implement them into the return equation but the code doesn't seem to be working and I can't figure it out. I've changed it like 12 times, even rewriting it a couple times but I can't figure out how to make it operational. Also, I forgot to ask this last class but is the homework graded based on completion or being fully functional?
+"""
